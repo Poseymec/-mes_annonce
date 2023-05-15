@@ -28,7 +28,7 @@
                 </li>
             </ul> 
             <ul class="navbar-nav ml-auto">
-            <?php if(isset($_SESSION['user']) && !empty($_SESSION['user']['id'])): ?>
+            <?php if(isset($_SESSION['user']) && !empty($_SESSION['user']['id'])) : ?>
                 <?php if( isset($_SESSION['user']['role']) && in_array('ROLE_ADMIN',$_SESSION['user']['role'])) :?>
                     <li class="nav-item active">
                         <a class="nav-link" href="/admin">ADMIN<span class="sr-only">(current)</span></a>
