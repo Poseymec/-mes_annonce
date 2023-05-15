@@ -1,0 +1,6 @@
+# demarrer le moteur de reecriture
+
+RewriteEngine On
+
+#reecriture de l'url
+RewriteRule ^([a-zA-Z0-9\-\_\/]*)$ index.php?p=$1   
