@@ -1,4 +1,4 @@
-<h2>description des annonces</h2>
+<h2>continue de l'annonce</h2>
 
 <article>
 
