@@ -1,3 +1,3 @@
-<h2>ajouter les annonces</h2>
+<h2>ajouter une annonce</h2>
 
 <?= $ajouterForm ?>
